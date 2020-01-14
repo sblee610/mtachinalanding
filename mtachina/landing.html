@@ -442,12 +442,12 @@
       <!--for PC-->
       <div class="pc form-style-2" id="pcform">
         <div class="form-style-2-heading">报名表格 Enrollment Form</div>
-        <form action="" method="post">
-          <label for="field1"><span>名称  Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
-          <label for="field2"><span>电子邮件 Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
-          <label for="field3"><span>电话/微信ID Phone/Wechat ID</span><input type="text" class="tel-number-field" name="tel_no_1" value=""> </label>
-          <label for="field4"><span>目前的工作 Current Job <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
-          <label for="field5"><span>Program</span><select name="field4" class="select-field">
+        <form action="data.php" method="post" onsubmit="return chkMailFrm()" name="formmail">
+          <label for="senduser"><span>名称  Name <span class="required">*</span></span><input type="text" class="input-field" name="senduser" value="" /></label>
+          <label for="email"><span>电子邮件 Email <span class="required">*</span></span><input type="text" class="input-field" name="email" value="" /></label>
+          <label for="phone"><span>电话/微信ID Phone/Wechat ID</span><input type="text" class="tel-number-field" name="phone" value=""> </label>
+          <label for="title"><span>目前的工作 Current Job <span class="required">*</span></span><input type="text" class="input-field" name="title" value="" /></label>
+          <label for="body"><span>Program</span><select name="body" class="select-field">
             <option value="leinn">LEINN International</option>
             <option value="minn">MINN</option>
             <option value="teaminn">TEAMINN</option>
@@ -458,12 +458,12 @@
 
       <div class="ph form-style-2">
         <div class="form-style-2-heading">报名表格 Enrollment Form</div>
-        <form action="" method="post">
-          <label for="field1"><div>名称  Name <span class="required">*</span></div><input type="text" class="input-field" name="field1" value="" /></label>
-          <label for="field2"><div>电子邮件 Email <span class="required">*</div></span><input type="text" class="input-field" name="field2" value="" /></label>
-          <label for="field3"><div>电话/微信ID Phone/Wechat ID <span class="required">*</span></div><input type="text" class="tel-number-field" name="tel_no_1" value=""> </label>
-          <label for="field4"><div>目前的工作 Current Job <span class="required">*</span></div><input type="text" class="input-field" name="field2" value="" /></label>
-          <label for="field5"><div>Program <span class="required">*</span></div><select name="field4" class="select-field">
+        <form action="data.php" method="post" onsubmit="return chkMailFrm()" name="formmail">
+          <label for="senduser"><div>名称  Name <span class="required">*</span></div><input type="text" class="input-field" name="senduser" value="" /></label>
+          <label for="email"><div>电子邮件 Email <span class="required">*</div></span><input type="text" class="input-field" name="email" value="" /></label>
+          <label for="phone"><div>电话/微信ID Phone/Wechat ID <span class="required">*</span></div><input type="text" class="tel-number-field" name="phone" value=""> </label>
+          <label for="title"><div>目前的工作 Current Job <span class="required">*</span></div><input type="text" class="input-field" name="title" value="" /></label>
+          <label for="body"><div>Program <span class="required">*</span></div><select name="body" class="select-field">
             <option value="leinn">LEINN International</option>
             <option value="minn">MINN</option>
             <option value="teaminn">TEAMINN</option>
